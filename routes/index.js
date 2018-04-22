@@ -10,12 +10,14 @@ router.get('/', function(req, res, next) {
   MongoClient.connect(url, function(err, db) {
     if (err) throw err;
     var dbo = db.db("heroku_g5rrfp2d");
-    dbo.createCollection("customers", function(err, res) {
+    dbo.createCollection("customers1", function(err, res) {
       if (err) throw err;
-        res.render('index', { title: 'Express' });
+        //res.render('index', { title: 'Express' });
       db.close();
     });
   });  
+
+  res.render('index', { title: 'Express' });
 
 });
 

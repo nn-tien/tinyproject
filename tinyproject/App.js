@@ -10,6 +10,9 @@ import { Platform, StyleSheet, Text, View, YellowBox } from "react-native";
 import Ionicons from "react-native-vector-icons/Ionicons";
 import { createBottomTabNavigator } from "react-navigation";
 
+import { Client } from "bugsnag-react-native";
+const bugsnag = new Client();
+
 YellowBox.ignoreWarnings([
   "Warning: isMounted(...) is deprecated",
   "Module RCTImageLoader"
@@ -40,6 +43,7 @@ class HomeScreen extends React.Component {
 
 class SettingsScreen extends React.Component {
   render() {
+    // bugsnag.notify(new Error("Test error"));
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
         <Text>Settings!</Text>

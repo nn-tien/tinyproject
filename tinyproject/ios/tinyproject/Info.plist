@@ -66,5 +66,7 @@
 		<string>Zocial.ttf</string>
 		<string>Cassandra Personal Use.ttf</string>
 	</array>
+	<key>BugsnagAPIKey</key>
+	<string>8773b91f35102e4a50e20d63b60c3e76</string>
 </dict>
 </plist>

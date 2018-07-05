@@ -1,4 +1,4 @@
-package com.tinyproject;
+package com.vn.tinyproject;
 
 import com.facebook.react.ReactActivity;
 

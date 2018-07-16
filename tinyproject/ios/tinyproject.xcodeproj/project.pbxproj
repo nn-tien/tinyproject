@@ -39,6 +39,11 @@
 		ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */; };
 		9B3C2DEAE8CA4E0A99C698D7 /* libRCTFBSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 791E1A209BAF4CA882759581 /* libRCTFBSDK.a */; };
 		2863024F6C174C24AA532A09 /* libRNFirebase.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 90D4C71AAA7D4B2D8A7261A1 /* libRNFirebase.a */; };
+		7852DF416C1D4584AFB91DA1 /* libRNGoogleSignin.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AB0C4B1DDE0F457681FA4ADD /* libRNGoogleSignin.a */; };
+		1217578D1E6A4609A1A2D327 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 83E21ADF1E28487FA5EC4B8B /* libz.tbd */; };
+		CA7E2397AB5A491589D2996E /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0601681F170468D80D9B771 /* SafariServices.framework */; };
+		424F66713B0C49B08B849546 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0ADBDCE14D844423822EB387 /* SystemConfiguration.framework */; };
+		062A556145F64E1093792046 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C8D4D4624BD4A87A4653A2C /* AddressBook.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -348,6 +353,12 @@
 		791E1A209BAF4CA882759581 /* libRCTFBSDK.a */ = {isa = PBXFileReference; name = "libRCTFBSDK.a"; path = "libRCTFBSDK.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
 		6F66283F09074838A8659428 /* RNFirebase.xcodeproj */ = {isa = PBXFileReference; name = "RNFirebase.xcodeproj"; path = "../node_modules/react-native-firebase/ios/RNFirebase.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
 		90D4C71AAA7D4B2D8A7261A1 /* libRNFirebase.a */ = {isa = PBXFileReference; name = "libRNFirebase.a"; path = "libRNFirebase.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		CC8E99F4CA754B539B7E49A0 /* RNGoogleSignin.xcodeproj */ = {isa = PBXFileReference; name = "RNGoogleSignin.xcodeproj"; path = "../node_modules/react-native-google-signin/ios/RNGoogleSignin.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
+		AB0C4B1DDE0F457681FA4ADD /* libRNGoogleSignin.a */ = {isa = PBXFileReference; name = "libRNGoogleSignin.a"; path = "libRNGoogleSignin.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		83E21ADF1E28487FA5EC4B8B /* libz.tbd */ = {isa = PBXFileReference; name = "libz.tbd"; path = "usr/lib/libz.tbd"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = sourcecode.text-based-dylib-definition; explicitFileType = undefined; includeInIndex = 0; };
+		B0601681F170468D80D9B771 /* SafariServices.framework */ = {isa = PBXFileReference; name = "SafariServices.framework"; path = "System/Library/Frameworks/SafariServices.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		0ADBDCE14D844423822EB387 /* SystemConfiguration.framework */ = {isa = PBXFileReference; name = "SystemConfiguration.framework"; path = "System/Library/Frameworks/SystemConfiguration.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		0C8D4D4624BD4A87A4653A2C /* AddressBook.framework */ = {isa = PBXFileReference; name = "AddressBook.framework"; path = "System/Library/Frameworks/AddressBook.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -378,6 +389,11 @@
 				139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */,
 				9B3C2DEAE8CA4E0A99C698D7 /* libRCTFBSDK.a in Frameworks */,
 				2863024F6C174C24AA532A09 /* libRNFirebase.a in Frameworks */,
+				7852DF416C1D4584AFB91DA1 /* libRNGoogleSignin.a in Frameworks */,
+				1217578D1E6A4609A1A2D327 /* libz.tbd in Frameworks */,
+				CA7E2397AB5A491589D2996E /* SafariServices.framework in Frameworks */,
+				424F66713B0C49B08B849546 /* SystemConfiguration.framework in Frameworks */,
+				062A556145F64E1093792046 /* AddressBook.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -527,6 +543,10 @@
 			isa = PBXGroup;
 			children = (
 				2D16E6891FA4F8E400B85C8A /* libReact.a */,
+				83E21ADF1E28487FA5EC4B8B /* libz.tbd */,
+				B0601681F170468D80D9B771 /* SafariServices.framework */,
+				0ADBDCE14D844423822EB387 /* SystemConfiguration.framework */,
+				0C8D4D4624BD4A87A4653A2C /* AddressBook.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -566,6 +586,7 @@
 				139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */,
 				566E2C01302749BB898F3E5F /* RCTFBSDK.xcodeproj */,
 				6F66283F09074838A8659428 /* RNFirebase.xcodeproj */,
+				CC8E99F4CA754B539B7E49A0 /* RNGoogleSignin.xcodeproj */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -1194,11 +1215,13 @@
 					"$(inherited)",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)\..\node_modules\react-native-fbsdk\ios\RCTFBSDK/**",
 					"$(SRCROOT)\..\node_modules\react-native-firebase\ios\RNFirebase/**",
+					"$(SRCROOT)\..\node_modules\react-native-google-signin\ios\RNGoogleSignin/**",
 				);
 			};
 			name = Debug;
@@ -1221,11 +1244,13 @@
 					"$(inherited)",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)\..\node_modules\react-native-fbsdk\ios\RCTFBSDK/**",
 					"$(SRCROOT)\..\node_modules\react-native-firebase\ios\RNFirebase/**",
+					"$(SRCROOT)\..\node_modules\react-native-google-signin\ios\RNGoogleSignin/**",
 				);
 			};
 			name = Release;
@@ -1249,6 +1274,7 @@
 					"$(inherited)",
 					"$(SRCROOT)\..\node_modules\react-native-fbsdk\ios\RCTFBSDK/**",
 					"$(SRCROOT)\..\node_modules\react-native-firebase\ios\RNFirebase/**",
+					"$(SRCROOT)\..\node_modules\react-native-google-signin\ios\RNGoogleSignin/**",
 				);
 			};
 			name = Debug;
@@ -1271,6 +1297,7 @@
 					"$(inherited)",
 					"$(SRCROOT)\..\node_modules\react-native-fbsdk\ios\RCTFBSDK/**",
 					"$(SRCROOT)\..\node_modules\react-native-firebase\ios\RNFirebase/**",
+					"$(SRCROOT)\..\node_modules\react-native-google-signin\ios\RNGoogleSignin/**",
 				);
 			};
 			name = Release;
@@ -1302,11 +1329,13 @@
 					"$(inherited)",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)\..\node_modules\react-native-fbsdk\ios\RCTFBSDK/**",
 					"$(SRCROOT)\..\node_modules\react-native-firebase\ios\RNFirebase/**",
+					"$(SRCROOT)\..\node_modules\react-native-google-signin\ios\RNGoogleSignin/**",
 				);
 			};
 			name = Debug;
@@ -1338,11 +1367,13 @@
 					"$(inherited)",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)\..\node_modules\react-native-fbsdk\ios\RCTFBSDK/**",
 					"$(SRCROOT)\..\node_modules\react-native-firebase\ios\RNFirebase/**",
+					"$(SRCROOT)\..\node_modules\react-native-google-signin\ios\RNGoogleSignin/**",
 				);
 			};
 			name = Release;
@@ -1373,11 +1404,13 @@
 					"$(inherited)",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)\..\node_modules\react-native-fbsdk\ios\RCTFBSDK/**",
 					"$(SRCROOT)\..\node_modules\react-native-firebase\ios\RNFirebase/**",
+					"$(SRCROOT)\..\node_modules\react-native-google-signin\ios\RNGoogleSignin/**",
 				);
 			};
 			name = Debug;
@@ -1408,11 +1441,13 @@
 					"$(inherited)",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)\..\node_modules\react-native-fbsdk\ios\RCTFBSDK/**",
 					"$(SRCROOT)\..\node_modules\react-native-firebase\ios\RNFirebase/**",
+					"$(SRCROOT)\..\node_modules\react-native-google-signin\ios\RNGoogleSignin/**",
 				);
 			};
 			name = Release;

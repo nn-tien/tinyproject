@@ -89,12 +89,16 @@ export default class App extends Component<Props> {
         <TouchableOpacity
           onPress={() => {
             console.log("Login start");
-            LoginManager.logInWithReadPermissions(["public_profile"]).then(
+            LoginManager.logInWithReadPermissions([
+              "public_profile",
+              "email"
+            ]).then(
               function(result) {
                 if (result.isCancelled) {
                   //alert("Login cancelled");
                   console.log("Login cancelled");
                 } else {
+                  console.log(result);
                   console.log(result.grantedPermissions.toString());
                   // alert(
                   //   "Login success with permissions: " +

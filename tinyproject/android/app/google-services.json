@@ -16,7 +16,7 @@
       "oauth_client": [
         {
           "client_id":
-            "1020634796670-dbfl1qfg1d2slacd160o9erhg4i2e9iv.apps.googleusercontent.com",
+            "1020634796670-0fv3602a1cm6b4t8q9psdve50uo5lnrl.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "com.tinyproject",
@@ -25,13 +25,13 @@
         },
         {
           "client_id":
-            "1020634796670-12cpuu57jrcsjgh4iskv5kq98q2q66pf.apps.googleusercontent.com",
+            "1020634796670-7r408fcm4v60gluctkh1jglkf1vpgsdn.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDyLdFvYJ8JAu92GrbYay1IxiW2C4DhJy0"
+          "current_key": "AIzaSyBv2EUT5-5jP_Br9jdJnFfjsON8xft8u0s"
         }
       ],
       "services": {
@@ -43,7 +43,7 @@
           "other_platform_oauth_client": [
             {
               "client_id":
-                "1020634796670-12cpuu57jrcsjgh4iskv5kq98q2q66pf.apps.googleusercontent.com",
+                "1020634796670-7r408fcm4v60gluctkh1jglkf1vpgsdn.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
